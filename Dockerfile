@@ -1,5 +1,5 @@
 # Use the UBI 9 base image
-FROM registry.access.redhat.com/ubi9/ubi
+FROM registry.redhat.io/ubi9/ubi:latest
 
 # Set the working directory
 WORKDIR /app
